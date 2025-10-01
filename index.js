@@ -9,7 +9,15 @@ let weworkItems = ["loaner laptop", "whiteboard", "conference room", "couch", "p
 let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice", "Wi-Fi router", "printer", "power strips", "headphones", "USB drives", "chairs", "desks"];
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
 
+weworkItems.shift("loander laptop")
+weworkItems.push("loaner laptop")
 
+console.log(weworkItems)
+
+computerLabItems[2] = "fixed laptop"
+console.log(computerLabItems)
+ mprItems[6] = (mprItems.Length)
+console.log(mprItems)
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 3rd Floor
@@ -20,6 +28,8 @@ let scoreValues = {
     "O": "Organization",
     "R": "Resilience"
 }
+scoreValues.C = Consistency;
+scoreValues.O = Ownership;
 
 let afterSchoolClubs = {
     athletic: [
