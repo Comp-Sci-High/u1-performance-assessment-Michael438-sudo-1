@@ -83,7 +83,19 @@ console.log(takeCareOfPet(snacks, pets));
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 5th Floor
+function message () {
+    return "You have reached the 5th floor!"
+}
+console.log(message());
 
+let messageArray = [];
+for (let i = 0; i < 5; i++) {
+    messageArray.push(message());
+}
+console.log(messageArray.length);
+console.log("Open sesame!")
+
+let message = "Complete"
 
 
 
